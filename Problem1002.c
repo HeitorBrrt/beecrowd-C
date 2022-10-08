@@ -8,3 +8,16 @@ Output
 Present the message "A=" followed by the value of the variable, 
 as in the example bellow, with four places after the decimal point. Use all double precision variables. 
 */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    double R;
+    printf("R = ");
+    scanf("%lf", &R);
+
+    double A = 3.14159 * R*R;
+
+    printf("A= %.4lf", A);
+}
