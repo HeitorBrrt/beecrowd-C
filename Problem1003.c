@@ -11,3 +11,20 @@ Output
 Print the message "SUM" with all the capital letters, 
 with a blank space before and after the equal signal followed by the corresponding value to the sum of A and B. 
 */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int A,B;
+
+    printf("A: ");
+    scanf("%d", &A);
+
+    printf("B: ");
+    scanf("%d", &B);
+
+    int SUM = A+B;
+
+    printf("X: %d", SUM);
+}
