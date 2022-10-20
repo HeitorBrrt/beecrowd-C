@@ -9,3 +9,10 @@ Output
 You must print the message Hello World! and then the endline as shown below.
 */
 
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}
